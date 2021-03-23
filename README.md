@@ -1,7 +1,7 @@
 # horloge_simplonien
 
 ## Mode d'emploi
--Pour utiliser l'application web assurez vous d'avoir démarrer l'api grâce à la commande : python api.py
+- Pour utiliser l'application web assurez vous d'avoir démarrer l'api grâce à la commande : python api.py
 
 - Ensuite dirigez vous sur le dossier templates et ouvrez le fichier index.html
 
