@@ -1,4 +1,4 @@
-from fonctions import clock
+from horloge_simplonien.fonctions import clock
 
 from flask import Flask, render_template
 from flask_cors import CORS
