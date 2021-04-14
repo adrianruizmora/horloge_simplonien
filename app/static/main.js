@@ -1,7 +1,7 @@
 var timeTitle = document.getElementById("time-title")
 
         const Http = new XMLHttpRequest()
-        const url = 'http://127.0.0.1:5000/clock';
+        const url = 'http://127.0.0.1:5000/api/clock/time';
 
         setInterval(function(){
             Http.open("GET", url);
@@ -13,6 +13,6 @@ var timeTitle = document.getElementById("time-title")
 
         Http.onreadystatechange=function(){
             if(this.readyState==4 && this.status==200){
-                timeTitle.textContent = Http.responseText
+                timeTitle.textContent = JSON.parse(Http.response).time
             }
         }

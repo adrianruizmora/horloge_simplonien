@@ -1,4 +1,3 @@
-Flask==1.1.2
-Flask-Cors==3.0.10
-gunicorn==20.0.4
-setuptools
+Werkzeug==0.16.1 
+Flask==1.0.2
+flask-restplus==0.11.0
