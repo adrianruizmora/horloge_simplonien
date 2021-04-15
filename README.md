@@ -162,7 +162,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Adrian R, Nicolas P, Yoan S.
+Adrian R
 
 Project Link: [https://github.com/adrianruizmora/horloge_simplonien](https://github.com/adrianruizmora/horloge_simplonien)
 
