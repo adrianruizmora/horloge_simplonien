@@ -1,7 +1,7 @@
 var timeTitle = document.getElementById("time-title")
 
         const Http = new XMLHttpRequest()
-        const url = 'http://127.0.0.1:8080/api/clock/time';
+        const url = 'http://localhost/api/clock/time';
 
         setInterval(function(){
             Http.open("GET", url);
