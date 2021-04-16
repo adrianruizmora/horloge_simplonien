@@ -83,7 +83,7 @@
   <img src="https://media.giphy.com/media/xUA7b2OfgTuVzqpVXq/giphy.gif" width="60" height="60" />
 </div>
 
-Project goal is to demonstrate simple flask application built with flask, served with nginx, uWSGI protocol and contenerized with docker.
+Project goal is to demonstrate simple flask application built with flask: served with nginx for reversed proxy, uWSGI to handle app  and contenerized with docker.
 
 <a href="https://github.com/adrianruizmora/horloge_simplonien">
     <img src="images/schema.jpeg" alt="Logo" width="300" height="200">
