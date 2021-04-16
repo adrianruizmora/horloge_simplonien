@@ -35,7 +35,7 @@
   <h3 align="center">Simplonian clock</h3>
 
   <p align="center">
-    Project goal is to demonstrate simple flask application built with flask, served with nginx, uWSGI protocol and contenerized with docker.
+    Project goal is to demonstrate simple flask application built with flask, served with nginx, uWSGI and contenerized with docker.
     <br />
     <a href="https://github.com/adrianruizmora/horloge_simplonien"><strong>Explore the docs »</strong></a>
     <br />
