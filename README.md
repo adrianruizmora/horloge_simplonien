@@ -85,6 +85,10 @@
 
 Web app that displays time for simplonians around the world.
 
+<a href="https://github.com/adrianruizmora/horloge_simplonien">
+    <img src="images/schema.jpeg" alt="Logo" width="300" height="200">
+</a>
+
 ### Built With
 
 - []()Docker
@@ -119,10 +123,10 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/adrianruizmora/horloge_simplonien
    ```
 
-## Directory tree
+### Directory tree
 
 ```sh
-  .
+.
 ├── LICENSE.txt
 ├── README.md
 ├── docker-compose.yml
@@ -158,11 +162,11 @@ To get a local copy up and running follow these simple steps.
 │   ├── requirements.txt
 │   └── run.py
 ├── images
-│   └── logo.png
-├── nginx
-│   ├── Dockerfile
-│   └── nginx.conf
-└── tree.txt
+│   ├── logo.png
+│   └── schema.jpeg
+└── nginx
+    ├── Dockerfile
+    └── nginx.conf
 
 12 directories, 28 files
 
@@ -172,7 +176,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Usage
 
-1. Build docker image for flask application and nginx using docker-compose.yml
+1. Build docker image for flask application and nginx using docker-compose.yml on the root directory
    ```sh
    docker-compose build
    ```
