@@ -119,6 +119,55 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/adrianruizmora/horloge_simplonien
    ```
 
+## Directory tree
+
+```sh
+  .
+├── LICENSE.txt
+├── README.md
+├── docker-compose.yml
+├── flask
+│   ├── Dockerfile
+│   ├── __pycache__
+│   │   └── run.cpython-38.pyc
+│   ├── activate.sh
+│   ├── app
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── __init__.cpython-38.pyc
+│   │   ├── api
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   ├── fonctions.cpython-38.pyc
+│   │   │   │   └── views.cpython-38.pyc
+│   │   │   ├── fonctions.py
+│   │   │   └── views.py
+│   │   ├── static
+│   │   │   ├── bootstrap.css
+│   │   │   └── main.js
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   └── web
+│   │       ├── __init__.py
+│   │       ├── __pycache__
+│   │       │   ├── __init__.cpython-38.pyc
+│   │       │   └── views.cpython-38.pyc
+│   │       └── views.py
+│   ├── app.ini
+│   ├── requirements.txt
+│   └── run.py
+├── images
+│   └── logo.png
+├── nginx
+│   ├── Dockerfile
+│   └── nginx.conf
+└── tree.txt
+
+12 directories, 28 files
+
+```
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -131,7 +180,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    docker-compose up
    ```
-3. If you make any changes to the application rebuild with 
+3. If you make any changes to the application rebuild with
    ```sh
    docker-compose up --build
    ```
