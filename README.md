@@ -33,9 +33,9 @@
   </a>
 
   <h3 align="center">Simplonian clock</h3>
-  Web app that displays time for simplonians around the world.
+
   <p align="center">
-    
+    Web app that displays time for simplonians around the world.
     <br />
     <a href="https://github.com/adrianruizmora/horloge_simplonien"><strong>Explore the docs »</strong></a>
     <br />
@@ -83,7 +83,7 @@
   <img src="https://media.giphy.com/media/xUA7b2OfgTuVzqpVXq/giphy.gif" width="60" height="60" />
 </div>
 
-Project goal is to demonstrate simple flask application built with flask, served with nginx, uWSGI and contenerized with docker.
+Project goal is to demonstrate simple flask application built with flask, served with nginx, uWSGI protocol and contenerized with docker.
 
 <a href="https://github.com/adrianruizmora/horloge_simplonien">
     <img src="images/schema.jpeg" alt="Logo" width="300" height="200">
